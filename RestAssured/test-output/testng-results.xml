@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="restsuite" duration-ms="97956" started-at="2019-11-06T18:43:30Z" finished-at="2019-11-06T18:45:08Z">
+    <groups>
+    </groups>
+    <test name="RestTest" duration-ms="97956" started-at="2019-11-06T18:43:30Z" finished-at="2019-11-06T18:45:08Z">
+      <class name="com.apitest.testcases.RestapideleteTest">
+        <test-method status="PASS" signature="postrest()[pri:0, instance:com.apitest.testcases.RestapideleteTest@224edc67]" name="postrest" duration-ms="3797" started-at="2019-11-06T18:45:04Z" finished-at="2019-11-06T18:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrest -->
+      </class> <!-- com.apitest.testcases.RestapideleteTest -->
+      <class name="com.apitest.testcases.PostrestassuredTest">
+        <test-method status="PASS" signature="postrest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apitest.testcases.PostrestassuredTest@4c70fda8]" name="postrest" duration-ms="32624" started-at="2019-11-06T18:43:31Z" data-provider="empdataprovider" finished-at="2019-11-06T18:44:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramanxyzd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrest -->
+        <test-method status="PASS" signature="postrest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apitest.testcases.PostrestassuredTest@4c70fda8]" name="postrest" duration-ms="30184" started-at="2019-11-06T18:44:04Z" data-provider="empdataprovider" finished-at="2019-11-06T18:44:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajeshcyzd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[864286]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[78]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrest -->
+        <test-method status="PASS" signature="postrest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apitest.testcases.PostrestassuredTest@4c70fda8]" name="postrest" duration-ms="30189" started-at="2019-11-06T18:44:34Z" data-provider="empdataprovider" finished-at="2019-11-06T18:45:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhixyzd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34364]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postrest -->
+      </class> <!-- com.apitest.testcases.PostrestassuredTest -->
+    </test> <!-- RestTest -->
+  </suite> <!-- restsuite -->
+</testng-results>
